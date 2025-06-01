@@ -25,5 +25,3 @@ COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
 CMD ["/entrypoint.sh"]
-
-# CMD ["java", "-jar", "/opt/i27/i27-users.jar"] java application
