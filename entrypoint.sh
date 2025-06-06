@@ -1,4 +1,3 @@
-
 #!/bin/bash
 ENVIRONMENT="${1:-dev}"
 
