@@ -4,5 +4,6 @@
 @Library("i27academy-slb@main") _
     k8spipeline(
         appName: 'clothing'
+        appType: 'react'
     )
 
