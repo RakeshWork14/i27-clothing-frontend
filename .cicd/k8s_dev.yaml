@@ -13,6 +13,8 @@ spec:
       labels:
         app: i27-clothing-dev
     spec:
+      imagePullSecrets: 
+      - name: docker-secret  #same name you created "docker-registry secret" under dev namespace
       containers:
       - name: i27-clothing-dev
         image: DIT # Replace with your docker image name 
