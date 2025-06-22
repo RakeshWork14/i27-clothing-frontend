@@ -25,6 +25,8 @@ spec:
         env:
         - name: ENVIRONMENT
           value: "stage"
+
+---          
 # Service for clothing node app
 apiVersion: v1
 kind: Service
@@ -39,4 +41,4 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 3000
-  type: NodePort
+  type: ClusterIP
