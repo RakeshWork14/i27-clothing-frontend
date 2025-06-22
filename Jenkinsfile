@@ -2,7 +2,7 @@
 // Calling the shared library/
 
 @Library("i27academy-slb@main") _
-    k8spipeline(
+    nodepipeline(
         appName: 'clothing',
         appType: 'react'
     )
